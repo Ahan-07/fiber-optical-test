@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+ .logo-text {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2.5rem;
+    color: #0073e6;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+  }
+    .navbar {
+      background-color: #042f4b;
+      padding: 0.5rem 2rem;
+    }
+    .navbar-nav .nav-link {
+      color: #fff !important;
+      padding: 0.75rem 1rem;
+    }
+    .navbar-nav .dropdown-menu {
+      background-color: #fffeff;
+      text-wrap-style:pretty;
+    }
+    /* Hover open dropdown */
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0; /* Optional: remove animation delay */
+}
+
+    .dropdown-item {
+      color: black;
+    }
+    .dropdown-item:hover {
+      background-color: #014f86;
+    }
+    .search-icon {
+      color: white;
+      font-size: 1.2rem;
+      cursor: pointer;
+      margin-left: 1rem;
+    }
+    .navbar-brand img {
+      height: 50px;
+    }
+
+/* hero section */
+     .hero {
+      color: #042f4b;
+      font-size: 2.2rem;
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 4rem;
+      margin-bottom: 1rem;
+    }
+    .hero-image img{
+      width:98.8vw;
+      overflow: hidden;
+      height: 50vh;
+    }
+
+     .section {
+      padding: 4rem 2rem;
+    }
+    .section h2 {
+        text-align: center;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    .section p {
+      font-size: 1.1rem;
+    }
+    .container1 {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 2rem;
+    }
+    .container1 ul{
+        text-decoration: underline;
+        text-align: justify;
+    }
+    .container1 li:hover {
+        cursor: pointer;
+  color: blue; /* On hover */
+}

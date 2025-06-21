@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fiber Optical Test</title>
+  <!-- Favicon (must be .ico, .png, .svg, etc.) -->
+<link rel="icon" href="asset/fiber logo.png" type="image/png">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background: linear-gradient(to right, #e0f7fa, #e1bee7);
+      color: #212121;
+    }
+    h2 {
+      color: #4a148c;
+    }
+    .tool-box {
+      background-color: rgba(255, 255, 255, 0.95);
+      border-radius: 12px;
+      padding: 2rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <!-- Logo -->
+<div class="nav d-flex align-items-center" >
+    <a class="navbar-brand" href="index.html">
+        <img src="asset/fiber logo.png" alt="Fiber Optical Test Logo">
+    </a>
+</div>
+    <!-- Navbar toggler for mobile -->
+    <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar content -->
+    <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+      <ul class="navbar-nav mx-auto">
+        <!-- Dropdown 1 -->
+          <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a href="octs.html" class="nav-link dropdown-item dropdown-toggle" >
+            Optical Reflectometry & Sensing
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item text-wrap" href="octs.html#OTDR">Optiacl Time-Domain Reflectometry</a></li>
+            <li><a class="dropdown-item teaxt-wrap" href="fault.html">Fault Monitoring</a></li>
+            <li><a class="dropdown-item teaxt-wrap" href="eoms.html">Optical line Monitoring</a></li>
+            <li><a class="dropdown-item text-wrap" href="eoms.html">Optical Coherence Tomography</a></li>
+            <li><a class="dropdown-item text-wrap" href="eoms.html">Optical Time-Domain Interferometry</a></li>
+            <li><a class="dropdown-item text-wrap" href="eoms.html">Optical Frequency-domain reflectometry</a></li>
+          </ul>
+        </li>
+
+        <!-- Dropdown 2 -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-item dropdown-toggle" href="opt.html">
+            Optical Performance Testing
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="powermeter.html">Power Meters</a></li>
+            <li><a class="dropdown-item text-wrap" href="opt_etc.html">Loss Test Sets</a></li>
+            <li><a class="dropdown-item text-wrap" href="opt_etc.html">Visual Fault Locator</a></li>
+            <li><a class="dropdown-item text-wrap" href="opt_etc.html">Optical Spectrum analysis</a></li>
+            <li><a class="dropdown-item text-wrap" href="opt_etc.html">Polarization Mode Dispersion Testing</a></li>
+
+          </ul>
+        </li>
+
+        <!-- Dropdown 3 -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-item dropdown-toggle" href="advt.html">
+            Advanced and Integrated Testing
+          </a>
+          <ul class="dropdown-menu ">
+            <li><a class="dropdown-item text-wrap" href="advt_etc.html">Integrated Tools</a></li>
+            <li><a class="dropdown-item" href="automation.html">Automation</a></li>
+            <li><a class="dropdown-item text-wrap" href="advt_etc.html">High-Speed Transmission Test Platforms</a></li>
+            <li><a class="dropdown-item text-wrap" href="advt_etc.html">Wavelength Routing and Tunable Filter Testing</a></li>
+            <li><a class="dropdown-item text-wrap" href="advt_etc.html">Remote Fiber Test Systems</a></li>
+          </ul>
+        </li>
+ 
+        <!-- Static links -->
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About Us</a>
+        </li>
+
+       <!-- Dropdown Careers -->
+<li class="nav-item dropdown">
+<a class="dropdown-item nav-link dropdown-toggle" href="career.html"> Careers</a>
+ <ul class="dropdown-menu">
+  <li><hr class="dropdown-divider"></li>
+  <li><a class="dropdown-item" href="career.html">Open Roles</a></li>
+  <li><a class="dropdown-item" href="career.html">Culture</a></li>
+</ul>
+
+</li>
+
+
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<section class="py-5 text-center">
+  <div class="container">
+    <h1 class="fw-bold">Explore Essential Fiber Optic Testing Tools</h1>
+    <p class="lead">A colorful overview of tools like Loss Test Sets, Visual Fault Locators, PMD, Integrated Tools, and High-Speed Transmission Test Systems.</p>
+  </div>
+</section>
+
+<div class="container">
+  <!-- Loss Test Sets -->
+  <div class="tool-box">
+    <h2>Loss Test Sets</h2>
+    <p>Loss Test Sets (LTS) are used to verify the overall optical loss and continuity of fiber optic links. They combine a light source and power meter in one unit to efficiently perform insertion loss and continuity tests.</p>
+    <ul>
+      <li>Accurate insertion loss measurement</li>
+      <li>Supports single-mode and multi-mode fibers</li>
+      <li>Used in both lab and field environments</li>
+    </ul>
+  </div>
+
+  <!-- Visual Fault Locator -->
+  <div class="tool-box">
+    <h2>Visual Fault Locator (VFL)</h2>
+    <p>VFLs emit a visible red laser that helps technicians quickly identify breaks, bends, faulty connectors, or splices in fiber optics. It’s a must-have tool for first-level troubleshooting.</p>
+    <ul>
+      <li>Bright red light to locate faults visually</li>
+      <li>Portable and easy to use</li>
+      <li>Effective for short-range diagnostics</li>
+    </ul>
+  </div>
+
+  <!-- Polarization Mode Dispersion -->
+  <div class="tool-box">
+    <h2>Polarization Mode Dispersion (PMD) Tester</h2>
+    <p>PMD Testers measure the time delay between two polarization modes in fiber. High PMD can distort signals in high-speed networks, making PMD testing crucial for modern telecommunications.</p>
+    <ul>
+      <li>Evaluates fiber suitability for 10G/40G/100G transmission</li>
+      <li>Supports network design and performance analysis</li>
+      <li>Used in advanced telecom and metro networks</li>
+    </ul>
+  </div>
+
+  <!-- Integrated Testing Tools -->
+  <div class="tool-box">
+    <h2>Integrated Testing Tools</h2>
+    <p>These platforms combine multiple testing capabilities—like power, loss, and reflectometry—into a single compact device. They reduce equipment clutter and improve testing efficiency for technicians and engineers.</p>
+    <ul>
+      <li>All-in-one test solution for field teams</li>
+      <li>Real-time multi-parameter visualization</li>
+      <li>Built-in automation and cloud sync options</li>
+    </ul>
+  </div>
+
+  <!-- High-Speed Transmission Testers -->
+  <div class="tool-box">
+    <h2>High-Speed Transmission Testers</h2>
+    <p>These tools validate signal integrity and performance at ultra-fast data rates (10G, 40G, 100G+). Used for R&D and live networks, they ensure error-free communication and compliance with industry standards.</p>
+    <ul>
+      <li>Bit error rate testing (BERT)</li>
+      <li>Eye diagram and jitter analysis</li>
+      <li>Support for Ethernet, Fibre Channel, and more</li>
+    </ul>
+  </div>
+
+  <!-- Remote Fiber Test Systems (RFTS) -->
+  <div class="tool-box">
+    <h2>Remote Fiber Test Systems (RFTS)</h2>
+    <p>RFTS solutions continuously monitor large fiber networks from a centralized location. These systems provide early fault alerts and reduce the need for frequent manual inspections.</p>
+    <ul>
+      <li>Remote diagnostics via web dashboard</li>
+      <li>24/7 fiber health analytics</li>
+      <li>Proactive maintenance and SLA compliance</li>
+    </ul>
+  </div>
+</div>
+
+<section class="text-center py-4">
+  <a href="contact.html" class="btn btn-outline-dark">Request a Demo</a>
+</section>
+
+<footer class="bg-dark text-light pt-5 pb-3">
+  <div class="container">
+    <div class="row text-start">
+
+      <!-- Column 1 -->
+      <div class="col-md-3 mb-4">
+        <h6 class="text-uppercase fw-bold">Corporate</h6>
+        <ul class="list-unstyled small">
+          <li><a href="about.html" class="text-light text-decoration-none">About Us</a></li>
+          <li><a href="career.html" class="text-light text-decoration-none">Careers</a></li>
+          <li><a href="about.html" class="text-light text-decoration-none">Investor Relations</a></li>
+          <li><a href="about.html" class="text-light text-decoration-none">News Releases</a></li>
+          <li><a href="about.html" class="text-light text-decoration-none">Partners</a></li>
+          <li><a href="about.html" class="text-light text-decoration-none">Social Responsibility</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 2 -->
+      <div class="col-md-3 mb-4">
+        <h6 class="text-uppercase fw-bold">Areas of Expertise</h6>
+        <ul class="list-unstyled small">
+          <li><a href="advt.html" class="text-light text-decoration-none">3D Sensing</a></li>
+          <li><a href="opt.html" class="text-light text-decoration-none">5G Testing</a></li>
+          <li><a href="octs.html" class="text-light text-decoration-none">Avionics</a></li>
+          <li><a href="octs.html" class="text-light text-decoration-none">Fiber</a></li>
+          <li><a href="career.html" class="text-light text-decoration-none">Service Assurance</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 3 -->
+      <div class="col-md-3 mb-4">
+        <h6 class="text-uppercase fw-bold">Support</h6>
+        <ul class="list-unstyled small">
+          <li><a href="contact.html" class="text-light text-decoration-none">Customer Service</a></li>
+          <li><a href="contact.html" class="text-light text-decoration-none">Technical Assistance</a></li>
+          <li><a href="contact.html" class="text-light text-decoration-none">Technical Support Portal</a></li>
+          <li><a href="contact.html" class="text-light text-decoration-none">Repair and Calibration</a></li>
+          <li><a href="product.html" class="text-light text-decoration-none">Software Downloads</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 4 -->
+      <div class="col-md-3 mb-4">
+        <h6 class="text-uppercase fw-bold">How to Buy</h6>
+        <ul class="list-unstyled small">
+          <li><a href="contact.html" class="text-light text-decoration-none">Request a Quote</a></li>
+          <li><a href="contact.html" class="text-light text-decoration-none">Contact Sales</a></li>
+          <li><a href="contact.html" class="text-light text-decoration-none">Locate a Partner</a></li>
+          <li><a href="contact.html" class="text-light text-decoration-none">Order Status</a></li>
+        </ul>
+
+        <div class="my-3">
+          <a href="#" class="btn btn-outline-light btn-sm px-3">SUBSCRIPTION CENTER</a>
+        </div>
+
+        <div class="d-flex gap-3 mt-3">
+          <a href="https:/facebook.com" class="text-light"><i class="bi bi-facebook fs-5"></i></a>
+          <a href="https:/instagram.com" class="text-light"><i class="bi bi-instagram fs-5"></i></a>
+          <a href="https:/linkedin.com" class="text-light"><i class="bi bi-linkedin fs-5"></i></a>
+          <a href="https:/facebook.com" class="text-light"><i class="bi bi-twitter-x fs-5"></i></a>
+          <a href="https:/twitter.com" class="text-light"><i class="bi bi-youtube fs-5"></i></a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Bottom bar -->
+    <div class="border-top border-secondary mt-4 pt-3 d-flex flex-column flex-md-row justify-content-between small">
+      <div>© 2025 Fiber Optical Test Inc.</div>
+      <div class="d-flex gap-3">
+        <a href="#" class="text-light text-decoration-none">Cookie Preferences</a>
+        <a href="contact.html" class="text-light text-decoration-none">Contact Us</a>
+        <a href="#" class="text-light text-decoration-none">Sitemap</a>
+        <a href="#" class="text-light text-decoration-none">Terms of Use</a>
+        <a href="#" class="text-light text-decoration-none">Privacy Policy</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
